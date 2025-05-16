@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bible Study Notes</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif
+      height: 100%;
+      margin: 0;
+      background-color: #fffdf7;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #0B4D56;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #56140B;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #56140B;
+      background-color: white;
+      padding: 4px 10px;
+      border-radius: 5px;
+    }
+
+    main {
+       padding: 30px 20px;
+       max-width: 800px;
+       margin: auto;
+      flex: 1;  /* this pushes footer down */
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    ul.book-list {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+
+    ul.book-list li {
+      margin: 15px 0;
+    }
+
+    ul.book-list a {
+      font-size: 1.2em;
+      color: #0B4D56;
+      text-decoration: none;
+      border: 1px solid #0B4D56;
+      padding: 10px 15px;
+      border-radius: 8px;
+      display: inline-block;
+    }
+
+    ul.book-list a:hover {
+      background-color: #0B4D56;
+      color: white;
+    }
+
+    footer {
+  background-color: #56140B;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  /* remove margin-top */
+}
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Bible Study Notes</h1>
+    <p>Choose a Book</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About the Ministry</a>
+    <a href="notes.html">Notes</a>
+  </nav>
+
+  <main>
+    <ul class="book-list">
+      <li><a href="ruth.html">Ruth</a></li>
+      <!-- Add more books here as needed -->
+    </ul>
+  </main>
+
+  <footer>
+    <p>“Your word is a lamp to my feet and a light to my path.” – Psalm 119:105</p>
+    <p>© 2025 BibleReadingWithAI</p>
+  </footer>
+</body>
+</html>
